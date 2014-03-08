@@ -190,7 +190,7 @@ static struct mmc_platform_data shooter_wifi_data = {
 	.msmsdcc_fmin   = 400000,
 	.msmsdcc_fmid   = 24000000,
 	.msmsdcc_fmax   = 48000000,
-	.nonremovable   = 0,
+	.nonremovable   = 1,
 	.pclk_src_dfab	= 1,
 };
 
@@ -403,7 +403,7 @@ static struct mmc_platform_data mmc_wimax_data = {
 	.msmsdcc_fmin   = 400000,
 	.msmsdcc_fmid   = 24000000,
 	.msmsdcc_fmax   = 48000000,
-	.nonremovable   = 0,
+	.nonremovable   = 1,
 	.slot_type		= &mmc_wimax_type,
 	.pclk_src_dfab	= 1,
 /*	.dummy52_required = 1,*/
