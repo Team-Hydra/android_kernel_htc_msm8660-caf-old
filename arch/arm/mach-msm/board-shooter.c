@@ -1788,7 +1788,7 @@ static struct msm_camera_sensor_flash_src msm_flash_src = {
 
 static struct camera_flash_cfg msm_camera_sensor_flash_cfg = {
 	.low_temp_limit	= 10,
-	.low_cap_limit	= 15,
+	.low_cap_limit	= 1,
 };
 
 #ifdef CONFIG_SP3D
