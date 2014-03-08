@@ -117,7 +117,7 @@
 #include "board-shooter.h"
 #include "devices.h"
 #include "devices-msm8x60.h"
-#include "cpuidle.h"
+#include <mach/cpuidle.h>
 #include "pm.h"
 #include "pm-boot.h"
 #include "mpm.h"
